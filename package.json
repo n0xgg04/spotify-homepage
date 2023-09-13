@@ -6,17 +6,33 @@
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "web": "expo start --web"
+    "web": "expo start --web",
+    "prettier": "prettier --write .",
+    "lint": "eslint --ext .js,.jsx,.ts,.tsx ."
   },
   "dependencies": {
+    "@expo-google-fonts/flow-circular": "^0.2.3",
+    "@expo-google-fonts/inter": "^0.2.3",
+    "@types/react-native-vector-icons": "^6.4.14",
+    "@types/styled-components-react-native": "^5.2.1",
     "expo": "~49.0.8",
+    "expo-font": "~11.4.0",
     "expo-status-bar": "~1.6.0",
+    "prettier": "3.0.0-alpha.6",
     "react": "18.2.0",
-    "react-native": "0.72.4"
+    "react-native": "0.72.4",
+    "react-native-linear-gradient": "^2.8.3",
+    "react-native-vector-icons": "^10.0.0",
+    "styled-components": "^6.0.7",
+    "twrnc": "^3.6.4"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
     "@types/react": "~18.2.14",
+    "@typescript-eslint/eslint-plugin": "^6.6.0",
+    "@typescript-eslint/parser": "^6.6.0",
+    "eslint": "^8.49.0",
+    "eslint-plugin-react": "^7.33.2",
     "typescript": "^5.1.3"
   },
   "private": true
